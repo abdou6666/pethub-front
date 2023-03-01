@@ -4,21 +4,15 @@ const RegisterForm = () => {
     return (
         <form className='w-80 h-72 border-2 border-gray-400 rounded-md flex justify-center items-center flex-col bg-slate-100'>
             <div className='w-max h-11 mt-4'>
-                <input type="email" placeholder='email' id='email' className='p-1.5 rounded-md  w-60
-                 placeholder:text-emerald-600
-                  text-green-800 
+                <input type="email" placeholder='email' id='email' className='p-1.5 rounded-md  w-60 placeholder:text-emerald-600
+   text-green-800 
                  border border-emerald-600
                  border-opacity-50
                    focus:outline-none focus:ring focus:ring-emerald-600
                  ' />
             </div>
             <div className='w-max h-11 mt-4'>
-                <input type="password" placeholder='password' id='password' className='p-1.5 rounded-md  w-60
-                 placeholder:text-emerald-600
-                  text-green-800 
-                 border border-emerald-600
-                 border-opacity-50
-                   focus:outline-none focus:ring focus:ring-emerald-600
+                <input type="password" placeholder='password' id='password' className='p-1.5 rounded-md  w-60 placeholder:text-emerald-600 text-green-800 border border-emerald-600 border-opacity-50 focus:outline-none focus:ring focus:ring-emerald-600
                  ' />
             </div>
             <div className='w-max h-11 mt-4'>
